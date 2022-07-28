@@ -21,4 +21,4 @@ Those are user inserted commands which the IDE allows, one can read the referenc
 
 ![image](https://user-images.githubusercontent.com/78630957/181395722-fce3de08-4153-4fe2-b6c5-1711b4e7782c.png)
 
-Using curly braces in this manner allows the test to use whatever string the store command has saved
+Using curly braces in this manner allows a test  different from the one the one in which the store command was used to access whatever string the store command has saved, this is called interpolation
