@@ -33,4 +33,4 @@ Using conditionals to control the flow of the test
 
 ![image](https://user-images.githubusercontent.com/78630957/181405924-88bdf201-cfb5-4dd3-b3e5-b68b655e087a.png)
 
-That is the block of code that represents one of the loops which the selenium IDE works with
+That is the "repeat if" block of code that represents one of the loops which the selenium IDE works with, there is also times: which repeats a set of instructions a given number of times and while which repeats a set instructions meanwhile a condition is met
