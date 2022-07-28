@@ -18,3 +18,7 @@ The reference of each command explaining what each one entails
 ![image](https://user-images.githubusercontent.com/78630957/181395350-30a5d930-093b-4647-98a0-b5dcb9fec6c2.png)
 
 Those are user inserted commands which the IDE allows, one can read the reference tab for a short explanation or search the documentation for a longer one
+
+![image](https://user-images.githubusercontent.com/78630957/181395722-fce3de08-4153-4fe2-b6c5-1711b4e7782c.png)
+
+Using curly braces in this manner allows the test to use whatever string the store command has saved
