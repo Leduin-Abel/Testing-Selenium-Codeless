@@ -1,0 +1,130 @@
+{
+  "id": "1898957f-7d0e-471f-a998-3903046b0cf9",
+  "version": "2.0",
+  "name": "control-flow",
+  "url": "http://the-internet.herokuapp.com/",
+  "tests": [{
+    "id": "025cd8c9-7e63-486c-b6cd-3389b27769d5",
+    "name": "if _and_derivates",
+    "commands": [{
+      "id": "97cb94ea-a2cb-45a5-84be-79ed92ff02e7",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"c\"",
+      "targets": [],
+      "value": "myVar"
+    }, {
+      "id": "2b9f64ff-add1-419f-8e58-aa04d587d715",
+      "comment": "",
+      "command": "if",
+      "target": "${myVar} === \"a\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a4b0b1b-8f96-4943-bbd4-be914a9d3012",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"a\"",
+      "targets": [],
+      "value": "output"
+    }, {
+      "id": "a774e0c5-8e9c-499a-90b6-deea42bffe98",
+      "comment": "",
+      "command": "elseIf",
+      "target": "${myVar} === \"b\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44651147-0706-4f31-8b28-bca3e915a919",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"b\"",
+      "targets": [],
+      "value": "output"
+    }, {
+      "id": "0a664bee-1f27-4170-b011-7e07608edc03",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77e3a4a5-a0e4-4f55-adfb-ee52f3d67cac",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"c\"",
+      "targets": [],
+      "value": "output"
+    }, {
+      "id": "ab180d27-2a86-491b-b403-1e4fea92f5d4",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d401f34-605e-44f6-a1f6-6f3d75575e20",
+      "comment": "",
+      "command": "assert",
+      "target": "output",
+      "targets": [],
+      "value": "c"
+    }]
+  }, {
+    "id": "060eb0bb-c253-4d24-85f4-251df3c0e4b9",
+    "name": "conditionals",
+    "commands": [{
+      "id": "49224fe2-ae62-4af3-8828-a7d51d826334",
+      "comment": "",
+      "command": "open",
+      "target": "/entry_ad",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f874bc2d-953b-4582-8647-43cf4f912a27",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82af3dc5-3693-4f9b-b160-7632991f5692",
+      "comment": "",
+      "command": "if",
+      "target": "document.querySelector('#modal') && document.querySelector('#modal').offsetHeight !== 0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47153e9d-a66f-46cf-9ffc-8bb1bfe3766b",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"modal\"]/div[2]/div[3]/p",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2575fd4-f0a8-49bf-b79d-c628cd8409e8",
+      "comment": "",
+      "command": "waitForElementNotVisible",
+      "target": "//*[@id=\"modal\"]/div[2]/div[3]/p",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "7c92129d-df2d-4f17-9c4c-c156eba139e8",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "403a9b3e-2df2-4ffb-9d12-9707a12d73b0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["025cd8c9-7e63-486c-b6cd-3389b27769d5"]
+  }],
+  "urls": ["https://the-internet.herokuapp.com/", "http://the-internet.herokuapp.com/"],
+  "plugins": []
+}
