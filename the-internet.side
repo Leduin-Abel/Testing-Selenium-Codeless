@@ -242,11 +242,11 @@
   }],
   "suites": [{
     "id": "98576405-b9aa-4ed4-b16d-5976e0f9ee54",
-    "name": "Default Suite",
+    "name": "Login",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["8c23e12e-0e35-4f9d-b1c6-104050383233"]
+    "tests": ["8c23e12e-0e35-4f9d-b1c6-104050383233", "2d9fc637-2a96-4587-9512-b24f3f6cc1f8", "f2edaadd-d6d8-4373-873a-d4dde17b5e3a"]
   }],
   "urls": ["https://the-internet.herokuapp.com/"],
   "plugins": []
